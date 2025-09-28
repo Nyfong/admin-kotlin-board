@@ -53,7 +53,7 @@ export function AppSidebar() {
         },
         {
           title: "Add New Recipe",
-          url: "/feature/recipes/create",
+          url: "/feature/new-recipes",
           icon: ChefHat,
         },
         {

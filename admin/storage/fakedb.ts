@@ -6,7 +6,7 @@ const recipesData: Recipe[] = [
     description:
       "A rich and creamy pasta dish with garlic, parmesan, and fresh herbs that's perfect for weeknight dinners.",
     image:
-      "https://media.cnn.com/api/v1/images/stellar/prod/150813135423-korea-food-map-bibimbap.jpg?q=w_1110,c_fill",
+      "https://www.allrecipes.com/thmb/IrY572TXic4UXXVn8EetsarI3S0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-269500-creamy-garlic-pasta-Beauties-4x3-f404628aad2a435a9985b2cf764209b5.jpg",
     category: "Italian",
     difficulty: "Easy",
     prepTime: 15,
@@ -180,7 +180,7 @@ const recipesData: Recipe[] = [
     description:
       "A rich and creamy pasta dish with garlic, parmesan, and fresh herbs that's perfect for weeknight dinners.",
     image:
-      "https://media.cnn.com/api/v1/images/stellar/prod/150813135423-korea-food-map-bibimbap.jpg?q=w_1110,c_fill",
+      "https://www.allrecipes.com/thmb/IrY572TXic4UXXVn8EetsarI3S0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-269500-creamy-garlic-pasta-Beauties-4x3-f404628aad2a435a9985b2cf764209b5.jpg",
     category: "Italian",
     difficulty: "Easy",
     prepTime: 15,
@@ -354,7 +354,7 @@ const recipesData: Recipe[] = [
     description:
       "A rich and creamy pasta dish with garlic, parmesan, and fresh herbs that's perfect for weeknight dinners.",
     image:
-      "https://media.cnn.com/api/v1/images/stellar/prod/150813135423-korea-food-map-bibimbap.jpg?q=w_1110,c_fill",
+      "https://www.allrecipes.com/thmb/IrY572TXic4UXXVn8EetsarI3S0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-269500-creamy-garlic-pasta-Beauties-4x3-f404628aad2a435a9985b2cf764209b5.jpg",
     category: "Italian",
     difficulty: "Easy",
     prepTime: 15,
@@ -528,7 +528,7 @@ const recipesData: Recipe[] = [
     description:
       "A rich and creamy pasta dish with garlic, parmesan, and fresh herbs that's perfect for weeknight dinners.",
     image:
-      "https://media.cnn.com/api/v1/images/stellar/prod/150813135423-korea-food-map-bibimbap.jpg?q=w_1110,c_fill",
+      "https://www.allrecipes.com/thmb/IrY572TXic4UXXVn8EetsarI3S0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-269500-creamy-garlic-pasta-Beauties-4x3-f404628aad2a435a9985b2cf764209b5.jpg",
     category: "Italian",
     difficulty: "Easy",
     prepTime: 15,
