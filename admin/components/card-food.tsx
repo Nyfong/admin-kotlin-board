@@ -10,7 +10,9 @@ const CardFood: React.FC<CardFoodProps> = ({ recipeData }) => {
   return (
     <>
       {recipeData.map((recipe, index) => (
-        <FoodDigalog key={index} recipe={recipe} />
+        <div className="w-full h-full" key={index}>
+          <FoodDigalog recipe={recipe} />
+        </div>
       ))}
     </>
   );

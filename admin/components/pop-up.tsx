@@ -43,7 +43,9 @@ export function FoodDigalog({ recipe }: { recipe: Recipe }) {
         )}
       </DialogTrigger>
       <DialogContent className="sm:max-w-lg md:max-w-4xl  h-[90vh] ">
-        <DialogTitle>{recipe.title}</DialogTitle>
+        <DialogTitle>
+          {recipe.title} {recipe.id}
+        </DialogTitle>
         <div className="rounded-lg border border-gray-200 shadow-sm overflow-hidden bg-white overflow-y-auto">
           <img
             src={recipe.image}

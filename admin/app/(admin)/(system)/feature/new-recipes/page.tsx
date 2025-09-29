@@ -3,7 +3,7 @@ import React from "react";
 
 export default function NewRecipes() {
   return (
-    <div>
+    <div className="h-screen overflow-hidden">
       <InputWithButton />
     </div>
   );

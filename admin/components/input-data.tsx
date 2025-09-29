@@ -200,18 +200,11 @@ const InputWithButton: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen  py-8 ">
-      <div className="max-w-full mx-auto">
-        {/* Header */}
-        <div className="text-center mb-8">
-          <p className="text-gray-600">
-            Create and share your delicious recipes with the world
-          </p>
-        </div>
-
+    <div className="h-full py-8  overflow-y-auto px-4 md:px-0">
+      <div className="w-[90vw] md:w-full mx-auto">
         {/* Success Message */}
         {submitMessage && (
-          <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg text-center">
+          <div className="mb-6 p-4  rounded-lg text-center">
             {submitMessage}
           </div>
         )}
@@ -566,11 +559,11 @@ const InputWithButton: React.FC = () => {
           </div>
 
           {/* Submit Button */}
-          <div className="p-6 bg-gray-50">
+          <div className="p-6 bg-gray-50 flex justify-end  ">
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-white text-orange-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-[400px] bg-orange-100 text-orange-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed "
             >
               {isSubmitting ? "Posting Recipe..." : "Post Recipe"}
             </button>

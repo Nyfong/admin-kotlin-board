@@ -57,14 +57,14 @@ export function AppSidebar() {
           icon: ChefHat,
         },
         {
+          title: "Edit Recipes",
+          url: "/feature/edit-recipes",
+          icon: Clock,
+        },
+        {
           title: "Recipe Categories",
           url: "/feature/categories",
           icon: Tags,
-        },
-        {
-          title: "Cooking Methods",
-          url: "/feature/cooking-methods",
-          icon: Clock,
         },
       ],
     },
